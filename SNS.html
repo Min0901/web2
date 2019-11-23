@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <title>사이트 모음집</title>
+</head>
+<style>
+    body {
+        margin: 0;
+    }
+    h1 {
+        text-align: center;
+        color: black;
+        border-bottom:gray 2px solid;
+        margin: 0;
+        padding: 20px;
+    }
+    #gk {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+    }
+    #gk a {
+        padding-left: 20px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+    #article h3 {
+        font-size: 50px;
+    }
+    #gk ol {
+        border-right: gray 2px solid;
+        margin: 0;
+    }
+    #article {
+        padding-left: 20px;
+    }
+    a {
+        text-decoration: none;
+        color: blueviolet;
+    }
+    @media(max-width:500px){
+        h1 {
+        border-bottom:none;}
+        #gk ol {
+        border-right: none;}
+        #gk {
+        display: block;}
+    }
+</style>
+<body>
+    <h1><a href="메인화면.html">사이트들 모음집</a></h1>
+    <div id="gk">
+        <ol>
+            <br><p><li><a href="검색.html">검색</a></li></p>
+            <p><li><a href="영상.html">영상</a></li></p>
+            <p><li><a href="SNS.html">SNS</a></li></p>
+            <p><li><a href="코딩.html">코딩</a></li></p>
+            <p><li><a href="이충민소개.html">이충민 소개</a></li></p>
+        </ol>
+            <div id="article">
+                <h3>SNS</h3>
+                <ul>
+                    <p><li><a href="https://www.facebook.com">페이스북</a></li></p>
+                    <p><li><a href="https://www.instagram.com">인스타그램</a></li></p>
+                    <p><li><a href="https://www.twitter.com">트위터</a></li></p>
+                </ul>
+            </div>
+    </div>
+</body>
